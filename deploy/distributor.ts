@@ -2,7 +2,7 @@ import hre from "hardhat";
 import type { HardhatRuntimeEnvironment } from "hardhat/types";
 import getMerkleTree from "./../scripts/getMerkleRoot";
 
-const ARBITRUM_WETH = "0xA3C18461Ddcd232640C8777170E7Fe23beEC87BB"; //"0x82af49447d8a07e3bd95bd0d56f35241523fbab1";
+const ARBITRUM_WETH = "0x82af49447d8a07e3bd95bd0d56f35241523fbab1";
 
 module.exports = async function main({
   deployments,
